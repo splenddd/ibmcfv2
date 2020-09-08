@@ -1,7 +1,7 @@
 name: rebootibm
 on:
   schedule:
-    - cron: 10 22 * * 6   想要每周自动重启 就取消注释掉此项   
+    - cron: 10 22 * * 6   
   watch:
     types: started      
 jobs:
